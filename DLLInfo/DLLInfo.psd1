@@ -1,7 +1,7 @@
 
 @{
     RootModule        = 'DLLInfo.psm1'
-    ModuleVersion     = '1.0'
+    ModuleVersion     = '1.0.0'
     GUID              = 'cf990a96-889f-4c16-9681-d92c592be539'
     Author            = 'Alan Plocieniak'
     CompanyName       = 'Alan Plocieniak'
