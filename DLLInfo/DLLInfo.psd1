@@ -11,6 +11,9 @@
     FunctionsToExport = '*'
     PrivateData       = @{
         PSData = @{
+            Tags       = @('ps', 'power-shell', 'dll')
+            LicenseUri = 'https://github.com/PowerShellLibrary/DLLInfo/blob/master/LICENSE'
+            ProjectUri = 'https://github.com/PowerShellLibrary/DLLInfo'
         }
     }
 }
