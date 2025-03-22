@@ -12,24 +12,24 @@ Module is available on [Powershell Gallery][gallery]
 
 ### Install
 ```powershell
-PS> Install-Module -Name DLLInfo
+Install-Module -Name DLLInfo
 ```
 
 ### Import
 ```powershell
-PS> Import-Module DLLInfo
+Import-Module DLLInfo
 ```
 # Usage
 
 
 ```powershell
-PS> Get-BuildConfiguration "C:\dll\SiteMetadata.dll"
+Get-BuildConfiguration "C:\dll\SiteMetadata.dll"
 Release
 
-PS> Get-TargetCPU "C:\dll\SiteMetadata.dll"
+Get-TargetCPU "C:\dll\SiteMetadata.dll"
 AnyCPU
 
-PS> Get-JitOptimized "C:\dll\SiteMetadata.dll"
+Get-JitOptimized "C:\dll\SiteMetadata.dll"
 True
 ```
 
